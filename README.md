@@ -22,29 +22,27 @@ Payout-Automation-System/
 ├── public/
 │   └── index.html
 ├── src/
-│   ├── assets/              # Images, icons, logos, etc.
-│   ├── components/          # Reusable UI components (e.g., Button, Navbar)
-│   ├── features/            # Feature-specific folders (like Payouts, Sessions)
-│   │   ├── MentorDashboard/
-│   │   │   ├── MentorDashboard.jsx
-│   │   │   └── mentorDashboardStyles.css
-│   │   ├── AdminPanel/
-│   │   │   ├── PayoutCalculator.jsx
-│   │   │   └── SessionManager.jsx
-│   │   └── Receipts/
-│   │       └── Receipts.jsx
-│   ├── pages/               # Page-level components (routes/screens)
-│   │   ├── Home.jsx
-│   │   └── Login.jsx
-│   ├── services/            # Firebase, API calls, etc.
-│   │   ├── firebase.js
-│   │   └── payoutService.js
-│   ├── utils/               # Helper functions, constants
-│   │   ├── constants.js
-│   │   └── helpers.js
-│   ├── App.jsx
-│   ├── index.js
-│   └── routes.jsx           # All route configurations
+├── components/
+│   ├── Admin/
+│   │   ├── Dashboard.jsx
+│   │   ├── SessionManager.jsx
+│   │   ├── PayoutCalculator.jsx
+│   │   ├── ReceiptGenerator.jsx
+│   │   └── 
+│   ├── Mentor/
+│   │   ├── Dashboard.jsx
+│   │   ├── SessionHistory.jsx
+│   │   └── Receipts.jsx
+│   ├── Auth/
+│   │   ├── Login.jsx
+│   │   └── SignUp.jsx
+│   └── Layout.jsx
+├── pages/
+│   └──LandingPage.jsx
+│    
+├── firebase.js
+├── App.jsx
+└── main.jsx
 ├── .gitignore
 ├── package.json
 ├── README.md
