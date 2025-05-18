@@ -1,6 +1,8 @@
 # 💸 Payout Automation System
 
 A full-stack React + Firebase application to automate and manage payouts for EdTech mentors.
+### Note:
+After entering correct login details just click on login button again to login.
 
 ## 🚀 Features
 
