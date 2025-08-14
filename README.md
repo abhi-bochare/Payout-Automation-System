@@ -6,7 +6,7 @@ A **full-stack React + Firebase** application to automate and manage payouts for
 
 ---
 
-### 🚀 [Live Demo]([https://dest-recommendation.netlify.app/](https://payout-automation-system.netlify.app/))
+### 🚀 [Live Demo](https://payout-automation-system.netlify.app/)
 
 ---
 
